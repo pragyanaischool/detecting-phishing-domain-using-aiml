@@ -1,5 +1,5 @@
 
-    import "./App.css";
+import "./App.css";
 import { useState } from "react";
 import { Route, Routes, Navigate, BrowserRouter as Router } from "react-router-dom";
 import LinearProgress from "@mui/material/LinearProgress";
