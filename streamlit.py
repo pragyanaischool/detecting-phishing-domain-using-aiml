@@ -11,7 +11,7 @@ def main():
     st.write('Enter a domain URL to check if it is phishing or not.')
 
     # Add input field for domain URL
-    domain_url = st.text_input('Enter Domain URL', 'example.com')
+    domain_url = st.text_input('https://www.geeksforgeeks.org/', 'example.com')
 
     # Add button to make prediction
     if st.button('Check Phishing'):
